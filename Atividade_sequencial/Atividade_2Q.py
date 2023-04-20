@@ -1,0 +1,6 @@
+hora = int(input("Defina a duração do evento: "))
+print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
+print("Duração do evento em horas: " ,hora)
+print("Duração do evento em minutos: " , hora*60)
+print("Duração do evento em segundos: " , hora*3600)
+print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
