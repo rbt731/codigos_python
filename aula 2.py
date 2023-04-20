@@ -8,8 +8,8 @@ varias linhas
 """
 #primeira forma de concatenar
 
-print("Olá",nome, "sua idade é", idade)
-print("Olá {} sua idade é {}".format(nome,idade))
+print("Olá", nome, "sua idade é", idade)
+print("Olá {} sua idade é {}".format(nome, idade))
 print(f"Olá {nome} sua idade é {idade}")
 
 print("estou no arquivo original")
