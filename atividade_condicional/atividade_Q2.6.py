@@ -1,12 +1,16 @@
-percurso = int(input("Quantos quilometros foram percorridos: "))
-carro = int(input("Informe o seu tipo de carro: "))
+percurso = float(input("Quantos quilometros foram percorridos: "))
+carro = int(input("Informe o seu tipo de carro, 1, 2 ou 3: "))
 
 if carro == 3:
-    gasA = percurso/12
-    print(f"consome {gasA}km/litros de gasolina")
+    gas = percurso / 12
+    #print(f"Tipo do carro é {carro} e vai precisar de {gas} litros de gasolina\n")
+
 elif carro == 2:
-    gasB = percurso/9
-    print(f"consome {gasB}km/litros de gasolina")
+    gas = percurso / 9
+    #print(f"Tipo do carro é {carro} e vai precisar de {gas} litros de gasolina\n")
+
 elif carro == 1:
-    gasC = percurso/8
-    print(f"consome {gasC}km/litros de gasolina")
+    gas = percurso / 8
+    #print(f"Tipo do carro é {carro} e vai precisar de {gas} litros de gasolina\n")
+
+print(f"Tipo do carro é {carro} e vai precisar de {gas} litros de gasolina\n")
