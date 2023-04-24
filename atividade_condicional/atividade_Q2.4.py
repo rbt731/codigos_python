@@ -1,10 +1,10 @@
-salario = int(input("Digite o valor do seu salário: R$ "))
-financiamento = int(input("Insira o valor do financiamento pretendido: R$ "))
-limite = salario*5
+salario = float(input("Digite o valor do seu salário: R$ "))
+financiamento = float(input("Qual o valor do financiamento: R$ "))
+limite = financiamento * 5
 
-if financiamento <= limite:
-    print("Financiamento Concedido")
+if limite <= salario:
+    print("Financiamento Concedido\n")
 else:
-    print("Financiamento Negado")
+    print("Financiamento Negado\n")
 
-print("Obrigado por nos consultar")
+print("Obrigado por nos consultar\n")
