@@ -19,3 +19,4 @@ while True:
         break
     else:
         print("Senha errada, digite novamente.\n")
+print("obrigado")
