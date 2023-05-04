@@ -4,7 +4,6 @@ while True:
         break
 cont = 1
 while cont <= 10:
-    
     if num % 2 == 0:
         print(f"{num} x {cont} = {num*cont}")
     else:

@@ -7,7 +7,6 @@ while True:
     if num == 0:
         break
 print(f"o número maior é {maior}\n")
-
 """
 num = 1
 while num != 0:

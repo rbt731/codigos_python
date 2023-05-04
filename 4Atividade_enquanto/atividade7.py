@@ -1,7 +1,9 @@
+import os
 soma = 0
-valor = 0
-while valor <= 3:
-    num = int(input("Digite 4 valores: "))
+valor = 1
+os.system("cls")
+while valor <= 4:
+    num = int(input(f"Digite valor {valor}: "))
     soma = soma + num
     valor = valor + 1
 media = soma / 4
