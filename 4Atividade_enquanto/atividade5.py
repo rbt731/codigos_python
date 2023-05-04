@@ -1,11 +1,12 @@
 while True:
-    num = int(input("Informe um valor de 1 a 9: "))
+    num = int(input("Informe um valor entre 1 a 9: "))
+    if num >=1 and num <=9:
+        break
+cont = 1
+while cont <= 10:
     
     if num % 2 == 0:
-        for i in range(1,11):
-            print(f"{num} x {i} = {num*i}")
+        print(f"{num} x {cont} = {num*cont}")
     else:
-        for i in range(1,11):
-            print(f"{num} + {i} = {num+i}")
-    if num == 0:
-        break
+        print(f"{num} x {cont} = {num*cont}")
+    cont += 1
