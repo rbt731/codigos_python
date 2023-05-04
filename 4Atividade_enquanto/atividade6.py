@@ -3,7 +3,7 @@ dentroIntervalo = 0
 foraIntervalo = 0
 contador = 1
 
-os.system("")
+os.system("cls")
 while contador <= 5:
     valor = int(input(f"Informe o valor {contador}: "))
     if valor >= 10 and valor <= 20:
