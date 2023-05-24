@@ -4,7 +4,7 @@ f1 =  Funcionario("Rogerio", "atedente")
 
 print(f"seu nome é {f1.getNome()}")
 
-f1.setNome("cu")
+f1.setNome("aaaaaaaaa")
 
 print(f"seu nome é {f1.getNome()}")
 

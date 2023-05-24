@@ -5,7 +5,6 @@ class Conta:
         self.__saldo = saldo
         self.__limite = limite# esse atributo possui um valor padrão de forma que o usuario poderá ou não informar este valor
     
-
     def relatorio(self):
         print(f"Olá {self.__titular}, o número da sua conta é {self.__numero} e o seu saldo atual é R$ {self.__saldo} e o seu limite é R$ {self.__limite}")
     
@@ -22,3 +21,16 @@ class Conta:
             print("valor menor que 0, infore outro valor")
         else:
             self.__limite = valor
+
+    # VAMOS MODIFICAR O ATRIBUTO SALDO COM O @PROPERTY E @SETTER
+    @property
+    def saldo(self):
+        print(f"Olá, seu saldo é {self.__saldo}\n")
+
+    @saldo.setter
+    def saldo(self, i):
+        if i <= 0:
+            print("Você não pode inserir valores menores ou igual zero\n")
+        else:
+            self.__saldo = i
+    
